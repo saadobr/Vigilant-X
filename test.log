@@ -1,0 +1,423 @@
+Oct 27 08:00:01 gcp-prod-auth-01 sshd[10421]: Server listening on 0.0.0.0 port 22.
+Oct 27 08:00:01 gcp-prod-auth-01 sshd[10421]: Server listening on :: port 22.
+Oct 27 08:01:15 gcp-prod-auth-01 sshd[10430]: Accepted publickey for admin_ops from 8.8.8.8 port 51234 ssh2: RSA SHA256:abc123xyz890
+Oct 27 08:01:15 gcp-prod-auth-01 sshd[10430]: pam_unix(sshd:session): session opened for user admin_ops by (uid=0)
+Oct 27 08:02:00 gcp-prod-auth-01 systemd-logind[911]: New session 102 of user admin_ops.
+Oct 27 08:03:22 gcp-prod-auth-01 sshd[10430]: pam_unix(sshd:session): session closed for user admin_ops
+Oct 27 08:05:01 gcp-prod-auth-01 CRON[10488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 08:05:02 gcp-prod-auth-01 CRON[10488]: pam_unix(cron:session): session closed for user root
+Oct 27 08:10:05 gcp-prod-auth-01 sshd[10512]: Failed password for invalid user admin from 185.220.101.5 port 34102 ssh2
+Oct 27 08:10:07 gcp-prod-auth-01 sshd[10514]: Failed password for invalid user admin from 185.220.101.5 port 34104 ssh2
+Oct 27 08:10:09 gcp-prod-auth-01 sshd[10516]: Failed password for invalid user root from 185.220.101.5 port 34108 ssh2
+Oct 27 08:10:11 gcp-prod-auth-01 sshd[10518]: Failed password for invalid user root from 185.220.101.5 port 34110 ssh2
+Oct 27 08:10:13 gcp-prod-auth-01 sshd[10520]: Failed password for user support from 185.220.101.5 port 34112 ssh2
+Oct 27 08:10:15 gcp-prod-auth-01 sshd[10522]: Failed password for user support from 185.220.101.5 port 34114 ssh2
+Oct 27 08:10:17 gcp-prod-auth-01 sshd[10524]: Failed password for invalid user test from 185.220.101.5 port 34118 ssh2
+Oct 27 08:10:19 gcp-prod-auth-01 sshd[10526]: Failed password for invalid user test1 from 185.220.101.5 port 34120 ssh2
+Oct 27 08:10:21 gcp-prod-auth-01 sshd[10528]: Failed password for invalid user guest from 185.220.101.5 port 34122 ssh2
+Oct 27 08:10:23 gcp-prod-auth-01 sshd[10530]: Failed password for user ubuntu from 185.220.101.5 port 34124 ssh2
+Oct 27 08:10:25 gcp-prod-auth-01 sshd[10532]: Failed password for user ubuntu from 185.220.101.5 port 34126 ssh2
+Oct 27 08:10:27 gcp-prod-auth-01 sshd[10534]: Failed password for invalid user oracle from 185.220.101.5 port 34128 ssh2
+Oct 27 08:10:29 gcp-prod-auth-01 sshd[10536]: Failed password for invalid user postgres from 185.220.101.5 port 34130 ssh2
+Oct 27 08:10:31 gcp-prod-auth-01 sshd[10538]: Failed password for invalid user mysql from 185.220.101.5 port 34132 ssh2
+Oct 27 08:10:33 gcp-prod-auth-01 sshd[10540]: Failed password for invalid user user1 from 185.220.101.5 port 34134 ssh2
+Oct 27 08:10:35 gcp-prod-auth-01 sshd[10542]: Failed password for user deploy from 185.220.101.5 port 34136 ssh2
+Oct 27 08:10:37 gcp-prod-auth-01 sshd[10544]: Failed password for user deploy from 185.220.101.5 port 34138 ssh2
+Oct 27 08:10:39 gcp-prod-auth-01 sshd[10546]: Failed password for invalid user ftpuser from 185.220.101.5 port 34140 ssh2
+Oct 27 08:10:41 gcp-prod-auth-01 sshd[10548]: Failed password for invalid user nagios from 185.220.101.5 port 34142 ssh2
+Oct 27 08:10:43 gcp-prod-auth-01 sshd[10550]: Failed password for invalid user zabbix from 185.220.101.5 port 34144 ssh2
+Oct 27 08:10:45 gcp-prod-auth-01 sshd[10552]: Failed password for invalid user elastic from 185.220.101.5 port 34146 ssh2
+Oct 27 08:10:47 gcp-prod-auth-01 sshd[10554]: Failed password for invalid user docker from 185.220.101.5 port 34148 ssh2
+Oct 27 08:10:49 gcp-prod-auth-01 sshd[10556]: Failed password for invalid user jenkins from 185.220.101.5 port 34150 ssh2
+Oct 27 08:10:51 gcp-prod-auth-01 sshd[10558]: Failed password for invalid user ansible from 185.220.101.5 port 34152 ssh2
+Oct 27 08:10:53 gcp-prod-auth-01 sshd[10560]: Failed password for user sysadmin from 185.220.101.5 port 34154 ssh2
+Oct 27 08:10:55 gcp-prod-auth-01 sshd[10562]: Failed password for user sysadmin from 185.220.101.5 port 34156 ssh2
+Oct 27 08:10:57 gcp-prod-auth-01 sshd[10564]: Failed password for invalid user webmaster from 185.220.101.5 port 34158 ssh2
+Oct 27 08:10:59 gcp-prod-auth-01 sshd[10566]: Failed password for invalid user info from 185.220.101.5 port 34160 ssh2
+Oct 27 08:11:01 gcp-prod-auth-01 sshd[10568]: Failed password for invalid user sales from 185.220.101.5 port 34162 ssh2
+Oct 27 08:11:03 gcp-prod-auth-01 sshd[10570]: Failed password for invalid user dev from 185.220.101.5 port 34164 ssh2
+Oct 27 08:11:05 gcp-prod-auth-01 sshd[10572]: Failed password for invalid user stage from 185.220.101.5 port 34166 ssh2
+Oct 27 08:11:07 gcp-prod-auth-01 sshd[10574]: Failed password for invalid user test2 from 185.220.101.5 port 34168 ssh2
+Oct 27 08:11:09 gcp-prod-auth-01 sshd[10576]: Failed password for invalid user demo from 185.220.101.5 port 34170 ssh2
+Oct 27 08:11:11 gcp-prod-auth-01 sshd[10578]: Failed password for invalid user temp from 185.220.101.5 port 34172 ssh2
+Oct 27 08:11:13 gcp-prod-auth-01 sshd[10580]: Failed password for invalid user operator from 185.220.101.5 port 34174 ssh2
+Oct 27 08:11:15 gcp-prod-auth-01 sshd[10582]: Failed password for invalid user service from 185.220.101.5 port 34176 ssh2
+Oct 27 08:11:17 gcp-prod-auth-01 sshd[10584]: Failed password for invalid user backup from 185.220.101.5 port 34178 ssh2
+Oct 27 08:11:19 gcp-prod-auth-01 sshd[10586]: Failed password for invalid user database from 185.220.101.5 port 34180 ssh2
+Oct 27 08:11:21 gcp-prod-auth-01 sshd[10588]: Failed password for invalid user api from 185.220.101.5 port 34182 ssh2
+Oct 27 08:11:23 gcp-prod-auth-01 sshd[10590]: Failed password for invalid user app from 185.220.101.5 port 34184 ssh2
+Oct 27 08:11:25 gcp-prod-auth-01 sshd[10592]: Failed password for invalid user client from 185.220.101.5 port 34186 ssh2
+Oct 27 08:11:27 gcp-prod-auth-01 sshd[10594]: Failed password for invalid user manager from 185.220.101.5 port 34188 ssh2
+Oct 27 08:11:29 gcp-prod-auth-01 sshd[10596]: Failed password for invalid user supervisor from 185.220.101.5 port 34190 ssh2
+Oct 27 08:11:31 gcp-prod-auth-01 sshd[10598]: Failed password for invalid user master from 185.220.101.5 port 34192 ssh2
+Oct 27 08:11:33 gcp-prod-auth-01 sshd[10600]: Failed password for invalid user slave from 185.220.101.5 port 34194 ssh2
+Oct 27 08:11:35 gcp-prod-auth-01 sshd[10602]: Failed password for invalid user cluster from 185.220.101.5 port 34196 ssh2
+Oct 27 08:11:37 gcp-prod-auth-01 sshd[10604]: Failed password for invalid user node from 185.220.101.5 port 34198 ssh2
+Oct 27 08:11:39 gcp-prod-auth-01 sshd[10606]: Failed password for invalid user main from 185.220.101.5 port 34200 ssh2
+Oct 27 08:11:41 gcp-prod-auth-01 sshd[10608]: Failed password for invalid user core from 185.220.101.5 port 34202 ssh2
+Oct 27 08:11:43 gcp-prod-auth-01 sshd[10610]: Failed password for invalid user system from 185.220.101.5 port 34204 ssh2
+Oct 27 08:11:45 gcp-prod-auth-01 sshd[10612]: Failed password for invalid user internal from 185.220.101.5 port 34206 ssh2
+Oct 27 08:11:47 gcp-prod-auth-01 sshd[10614]: Failed password for invalid user public from 185.220.101.5 port 34208 ssh2
+Oct 27 08:11:49 gcp-prod-auth-01 sshd[10616]: Failed password for invalid user private from 185.220.101.5 port 34210 ssh2
+Oct 27 08:11:51 gcp-prod-auth-01 sshd[10618]: Failed password for invalid user secure from 185.220.101.5 port 34212 ssh2
+Oct 27 08:11:53 gcp-prod-auth-01 sshd[10620]: Failed password for invalid user auth from 185.220.101.5 port 34214 ssh2
+Oct 27 08:11:55 gcp-prod-auth-01 sshd[10622]: Failed password for invalid user login from 185.220.101.5 port 34216 ssh2
+Oct 27 08:11:57 gcp-prod-auth-01 sshd[10624]: Failed password for invalid user access from 185.220.101.5 port 34218 ssh2
+Oct 27 08:11:59 gcp-prod-auth-01 sshd[10626]: Failed password for invalid user remote from 185.220.101.5 port 34220 ssh2
+Oct 27 08:12:01 gcp-prod-auth-01 sshd[10628]: Failed password for invalid user shell from 185.220.101.5 port 34222 ssh2
+Oct 27 08:12:03 gcp-prod-auth-01 sshd[10630]: Failed password for invalid user bash from 185.220.101.5 port 34224 ssh2
+Oct 27 08:12:05 gcp-prod-auth-01 sshd[10632]: Failed password for invalid user terminal from 185.220.101.5 port 34226 ssh2
+Oct 27 08:12:07 gcp-prod-auth-01 sshd[10634]: Failed password for invalid user console from 185.220.101.5 port 34228 ssh2
+Oct 27 08:12:09 gcp-prod-auth-01 sshd[10636]: Failed password for invalid user tty from 185.220.101.5 port 34230 ssh2
+Oct 27 08:12:11 gcp-prod-auth-01 sshd[10638]: Failed password for invalid user pty from 185.220.101.5 port 34232 ssh2
+Oct 27 08:12:13 gcp-prod-auth-01 sshd[10640]: Failed password for invalid user host from 185.220.101.5 port 34234 ssh2
+Oct 27 08:12:15 gcp-prod-auth-01 sshd[10642]: Failed password for invalid user server from 185.220.101.5 port 34236 ssh2
+Oct 27 08:12:17 gcp-prod-auth-01 sshd[10644]: Failed password for invalid user cloud from 185.220.101.5 port 34238 ssh2
+Oct 27 08:12:19 gcp-prod-auth-01 sshd[10646]: Failed password for invalid user vm from 185.220.101.5 port 34240 ssh2
+Oct 27 08:12:21 gcp-prod-auth-01 sshd[10648]: Failed password for invalid user instance from 185.220.101.5 port 34242 ssh2
+Oct 27 08:12:23 gcp-prod-auth-01 sshd[10650]: Failed password for invalid user box from 185.220.101.5 port 34244 ssh2
+Oct 27 08:12:25 gcp-prod-auth-01 sshd[10652]: Failed password for invalid user unit from 185.220.101.5 port 34246 ssh2
+Oct 27 08:12:27 gcp-prod-auth-01 sshd[10654]: Failed password for invalid user agent from 185.220.101.5 port 34248 ssh2
+Oct 27 08:12:29 gcp-prod-auth-01 sshd[10656]: Failed password for invalid user bot from 185.220.101.5 port 34250 ssh2
+Oct 27 08:12:31 gcp-prod-auth-01 sshd[10658]: Failed password for invalid user crawler from 185.220.101.5 port 34252 ssh2
+Oct 27 08:12:33 gcp-prod-auth-01 sshd[10660]: Failed password for invalid user spider from 185.220.101.5 port 34254 ssh2
+Oct 27 08:12:35 gcp-prod-auth-01 sshd[10662]: Failed password for invalid user monitor from 185.220.101.5 port 34256 ssh2
+Oct 27 08:12:37 gcp-prod-auth-01 sshd[10664]: Failed password for invalid user alert from 185.220.101.5 port 34258 ssh2
+Oct 27 08:12:39 gcp-prod-auth-01 sshd[10666]: Failed password for invalid user syslog from 185.220.101.5 port 34260 ssh2
+Oct 27 08:12:41 gcp-prod-auth-01 sshd[10668]: Failed password for invalid user log from 185.220.101.5 port 34262 ssh2
+Oct 27 08:12:43 gcp-prod-auth-01 sshd[10670]: Failed password for invalid user audit from 185.220.101.5 port 34264 ssh2
+Oct 27 08:12:45 gcp-prod-auth-01 sshd[10672]: Failed password for invalid user security from 185.220.101.5 port 34266 ssh2
+Oct 27 08:12:47 gcp-prod-auth-01 sshd[10674]: Failed password for invalid user guard from 185.220.101.5 port 34268 ssh2
+Oct 27 08:12:49 gcp-prod-auth-01 sshd[10676]: Failed password for invalid user shield from 185.220.101.5 port 34270 ssh2
+Oct 27 08:12:51 gcp-prod-auth-01 sshd[10678]: Failed password for invalid user firewall from 185.220.101.5 port 34272 ssh2
+Oct 27 08:12:53 gcp-prod-auth-01 sshd[10680]: Failed password for invalid user proxy from 185.220.101.5 port 34274 ssh2
+Oct 27 08:12:55 gcp-prod-auth-01 sshd[10682]: Failed password for invalid user router from 185.220.101.5 port 34276 ssh2
+Oct 27 08:12:57 gcp-prod-auth-01 sshd[10684]: Failed password for invalid user switch from 185.220.101.5 port 34278 ssh2
+Oct 27 08:12:59 gcp-prod-auth-01 sshd[10686]: Failed password for invalid user gateway from 185.220.101.5 port 34280 ssh2
+Oct 27 08:13:01 gcp-prod-auth-01 sshd[10688]: Failed password for invalid user dns from 185.220.101.5 port 34282 ssh2
+Oct 27 08:13:03 gcp-prod-auth-01 sshd[10690]: Failed password for invalid user dhcp from 185.220.101.5 port 34284 ssh2
+Oct 27 08:13:05 gcp-prod-auth-01 sshd[10692]: Failed password for invalid user mail from 185.220.101.5 port 34286 ssh2
+Oct 27 08:13:07 gcp-prod-auth-01 sshd[10694]: Failed password for invalid user smtp from 185.220.101.5 port 34288 ssh2
+Oct 27 08:13:09 gcp-prod-auth-01 sshd[10696]: Failed password for invalid user pop3 from 185.220.101.5 port 34290 ssh2
+Oct 27 08:13:11 gcp-prod-auth-01 sshd[10698]: Failed password for invalid user imap from 185.220.101.5 port 34292 ssh2
+Oct 27 08:13:13 gcp-prod-auth-01 sshd[10700]: Failed password for invalid user www from 185.220.101.5 port 34294 ssh2
+Oct 27 08:13:15 gcp-prod-auth-01 sshd[10702]: Failed password for invalid user http from 185.220.101.5 port 34296 ssh2
+Oct 27 08:13:17 gcp-prod-auth-01 sshd[10704]: Failed password for invalid user https from 185.220.101.5 port 34298 ssh2
+Oct 27 08:13:19 gcp-prod-auth-01 sshd[10706]: Failed password for invalid user ssl from 185.220.101.5 port 34300 ssh2
+Oct 27 08:13:21 gcp-prod-auth-01 sshd[10708]: Failed password for invalid user tls from 185.220.101.5 port 34302 ssh2
+Oct 27 08:13:23 gcp-prod-auth-01 sshd[10710]: Failed password for invalid user vpn from 185.220.101.5 port 34304 ssh2
+Oct 27 08:13:25 gcp-prod-auth-01 sshd[10712]: Failed password for invalid user tunnel from 185.220.101.5 port 34306 ssh2
+Oct 27 08:15:00 gcp-prod-auth-01 sshd[10800]: Accepted publickey for gcp_deployer from 35.192.0.1 port 48210 ssh2: RSA SHA256:def456uvw789
+Oct 27 08:15:00 gcp-prod-auth-01 sshd[10800]: pam_unix(sshd:session): session opened for user gcp_deployer by (uid=0)
+Oct 27 08:15:12 gcp-prod-auth-01 sshd[10800]: pam_unix(sshd:session): session closed for user gcp_deployer
+Oct 27 08:20:01 gcp-prod-auth-01 sshd[10901]: Failed password for invalid user root from 103.253.41.98 port 51102 ssh2
+Oct 27 08:20:02 gcp-prod-auth-01 sshd[10903]: Failed password for invalid user root from 103.253.41.98 port 51104 ssh2
+Oct 27 08:20:03 gcp-prod-auth-01 sshd[10905]: Failed password for invalid user root from 103.253.41.98 port 51106 ssh2
+Oct 27 08:20:04 gcp-prod-auth-01 sshd[10907]: Failed password for invalid user admin from 103.253.41.98 port 51108 ssh2
+Oct 27 08:20:05 gcp-prod-auth-01 sshd[10909]: Failed password for invalid user admin from 103.253.41.98 port 51110 ssh2
+Oct 27 08:20:06 gcp-prod-auth-01 sshd[10911]: Failed password for invalid user administrator from 103.253.41.98 port 51112 ssh2
+Oct 27 08:20:07 gcp-prod-auth-01 sshd[10913]: Failed password for user user from 103.253.41.98 port 51114 ssh2
+Oct 27 08:20:08 gcp-prod-auth-01 sshd[10915]: Failed password for user user from 103.253.41.98 port 51116 ssh2
+Oct 27 08:20:09 gcp-prod-auth-01 sshd[10917]: Failed password for user guest from 103.253.41.98 port 51118 ssh2
+Oct 27 08:20:10 gcp-prod-auth-01 sshd[10919]: Failed password for invalid user test from 103.253.41.98 port 51120 ssh2
+Oct 27 08:20:11 gcp-prod-auth-01 sshd[10921]: Failed password for invalid user ubuntu from 103.253.41.98 port 51122 ssh2
+Oct 27 08:20:12 gcp-prod-auth-01 sshd[10923]: Failed password for invalid user debian from 103.253.41.98 port 51124 ssh2
+Oct 27 08:20:13 gcp-prod-auth-01 sshd[10925]: Failed password for invalid user centos from 103.253.41.98 port 51126 ssh2
+Oct 27 08:20:14 gcp-prod-auth-01 sshd[10927]: Failed password for invalid user redhat from 103.253.41.98 port 51128 ssh2
+Oct 27 08:20:15 gcp-prod-auth-01 sshd[10929]: Failed password for invalid user fedora from 103.253.41.98 port 51130 ssh2
+Oct 27 08:20:16 gcp-prod-auth-01 sshd[10931]: Failed password for invalid user suse from 103.253.41.98 port 51132 ssh2
+Oct 27 08:20:17 gcp-prod-auth-01 sshd[10933]: Failed password for invalid user alpine from 103.253.41.98 port 51134 ssh2
+Oct 27 08:20:18 gcp-prod-auth-01 sshd[10935]: Failed password for invalid user arch from 103.253.41.98 port 51136 ssh2
+Oct 27 08:20:19 gcp-prod-auth-01 sshd[10937]: Failed password for invalid user gentoo from 103.253.41.98 port 51138 ssh2
+Oct 27 08:20:20 gcp-prod-auth-01 sshd[10939]: Failed password for invalid user freebsd from 103.253.41.98 port 51140 ssh2
+Oct 27 08:20:21 gcp-prod-auth-01 sshd[10941]: Failed password for invalid user openbsd from 103.253.41.98 port 51142 ssh2
+Oct 27 08:20:22 gcp-prod-auth-01 sshd[10943]: Failed password for invalid user netbsd from 103.253.41.98 port 51144 ssh2
+Oct 27 08:20:23 gcp-prod-auth-01 sshd[10945]: Failed password for invalid user solaris from 103.253.41.98 port 51146 ssh2
+Oct 27 08:20:24 gcp-prod-auth-01 sshd[10947]: Failed password for invalid user aix from 103.253.41.98 port 51148 ssh2
+Oct 27 08:20:25 gcp-prod-auth-01 sshd[10949]: Failed password for invalid user hpux from 103.253.41.98 port 51150 ssh2
+Oct 27 08:20:26 gcp-prod-auth-01 sshd[10951]: Failed password for invalid user cisco from 103.253.41.98 port 51152 ssh2
+Oct 27 08:20:27 gcp-prod-auth-01 sshd[10953]: Failed password for invalid user juniper from 103.253.41.98 port 51154 ssh2
+Oct 27 08:20:28 gcp-prod-auth-01 sshd[10955]: Failed password for invalid user huawei from 103.253.41.98 port 51156 ssh2
+Oct 27 08:20:29 gcp-prod-auth-01 sshd[10957]: Failed password for invalid user mikrotik from 103.253.41.98 port 51158 ssh2
+Oct 27 08:20:30 gcp-prod-auth-01 sshd[10959]: Failed password for invalid user ubnt from 103.253.41.98 port 51160 ssh2
+Oct 27 08:20:31 gcp-prod-auth-01 sshd[10961]: Failed password for invalid user vyos from 103.253.41.98 port 51162 ssh2
+Oct 27 08:20:32 gcp-prod-auth-01 sshd[10963]: Failed password for invalid user pfsense from 103.253.41.98 port 51164 ssh2
+Oct 27 08:20:33 gcp-prod-auth-01 sshd[10965]: Failed password for invalid user opnsense from 103.253.41.98 port 51166 ssh2
+Oct 27 08:20:34 gcp-prod-auth-01 sshd[10967]: Failed password for invalid user openwrt from 103.253.41.98 port 51168 ssh2
+Oct 27 08:20:35 gcp-prod-auth-01 sshd[10969]: Failed password for invalid user dlink from 103.253.41.98 port 51170 ssh2
+Oct 27 08:20:36 gcp-prod-auth-01 sshd[10971]: Failed password for invalid user tplink from 103.253.41.98 port 51172 ssh2
+Oct 27 08:20:37 gcp-prod-auth-01 sshd[10973]: Failed password for invalid user netgear from 103.253.41.98 port 51174 ssh2
+Oct 27 08:20:38 gcp-prod-auth-01 sshd[10975]: Failed password for invalid user asus from 103.253.41.98 port 51176 ssh2
+Oct 27 08:20:39 gcp-prod-auth-01 sshd[10977]: Failed password for invalid user linksys from 103.253.41.98 port 51178 ssh2
+Oct 27 08:20:40 gcp-prod-auth-01 sshd[10979]: Failed password for invalid user belkin from 103.253.41.98 port 51180 ssh2
+Oct 27 08:20:41 gcp-prod-auth-01 sshd[10981]: Failed password for invalid user synology from 103.253.41.98 port 51182 ssh2
+Oct 27 08:20:42 gcp-prod-auth-01 sshd[10983]: Failed password for invalid user qnap from 103.253.41.98 port 51184 ssh2
+Oct 27 08:20:43 gcp-prod-auth-01 sshd[10985]: Failed password for invalid user asustor from 103.253.41.98 port 51186 ssh2
+Oct 27 08:20:44 gcp-prod-auth-01 sshd[10987]: Failed password for invalid user drobo from 103.253.41.98 port 51188 ssh2
+Oct 27 08:20:45 gcp-prod-auth-01 sshd[10989]: Failed password for invalid user buffalo from 103.253.41.98 port 51190 ssh2
+Oct 27 08:20:46 gcp-prod-auth-01 sshd[10991]: Failed password for invalid user wd from 103.253.41.98 port 51192 ssh2
+Oct 27 08:20:47 gcp-prod-auth-01 sshd[10993]: Failed password for invalid user seagate from 103.253.41.98 port 51194 ssh2
+Oct 27 08:20:48 gcp-prod-auth-01 sshd[10995]: Failed password for invalid user toshiba from 103.253.41.98 port 51196 ssh2
+Oct 27 08:20:49 gcp-prod-auth-01 sshd[10997]: Failed password for invalid user hitachi from 103.253.41.98 port 51198 ssh2
+Oct 27 08:20:50 gcp-prod-auth-01 sshd[10999]: Failed password for invalid user samsung from 103.253.41.98 port 51200 ssh2
+Oct 27 08:20:51 gcp-prod-auth-01 sshd[11001]: Failed password for invalid user lg from 103.253.41.98 port 51202 ssh2
+Oct 27 08:20:52 gcp-prod-auth-01 sshd[11003]: Failed password for invalid user sony from 103.253.41.98 port 51204 ssh2
+Oct 27 08:20:53 gcp-prod-auth-01 sshd[11005]: Failed password for invalid user panasonic from 103.253.41.98 port 51206 ssh2
+Oct 27 08:20:54 gcp-prod-auth-01 sshd[11007]: Failed password for invalid user sharp from 103.253.41.98 port 51208 ssh2
+Oct 27 08:20:55 gcp-prod-auth-01 sshd[11009]: Failed password for invalid user philips from 103.253.41.98 port 51210 ssh2
+Oct 27 08:20:56 gcp-prod-auth-01 sshd[11011]: Failed password for invalid user xiaomi from 103.253.41.98 port 51212 ssh2
+Oct 27 08:20:57 gcp-prod-auth-01 sshd[11013]: Failed password for invalid user huawei2 from 103.253.41.98 port 51214 ssh2
+Oct 27 08:20:58 gcp-prod-auth-01 sshd[11015]: Failed password for invalid user zte from 103.253.41.98 port 51216 ssh2
+Oct 27 08:20:59 gcp-prod-auth-01 sshd[11017]: Failed password for invalid user lenovo from 103.253.41.98 port 51218 ssh2
+Oct 27 08:21:00 gcp-prod-auth-01 sshd[11019]: Failed password for invalid user acer from 103.253.41.98 port 51220 ssh2
+Oct 27 08:21:01 gcp-prod-auth-01 sshd[11021]: Failed password for invalid user hp from 103.253.41.98 port 51222 ssh2
+Oct 27 08:21:02 gcp-prod-auth-01 sshd[11023]: Failed password for invalid user dell from 103.253.41.98 port 51224 ssh2
+Oct 27 08:21:03 gcp-prod-auth-01 sshd[11025]: Failed password for invalid user ibm from 103.253.41.98 port 51226 ssh2
+Oct 27 08:21:04 gcp-prod-auth-01 sshd[11027]: Failed password for invalid user fujitsu from 103.253.41.98 port 51228 ssh2
+Oct 27 08:21:05 gcp-prod-auth-01 sshd[11029]: Failed password for invalid user nec from 103.253.41.98 port 51230 ssh2
+Oct 27 08:21:06 gcp-prod-auth-01 sshd[11031]: Failed password for invalid user hitachi2 from 103.253.41.98 port 51232 ssh2
+Oct 27 08:21:07 gcp-prod-auth-01 sshd[11033]: Failed password for invalid user canon from 103.253.41.98 port 51234 ssh2
+Oct 27 08:21:08 gcp-prod-auth-01 sshd[11035]: Failed password for invalid user epson from 103.253.41.98 port 51236 ssh2
+Oct 27 08:21:09 gcp-prod-auth-01 sshd[11037]: Failed password for invalid user ricoh from 103.253.41.98 port 51238 ssh2
+Oct 27 08:21:10 gcp-prod-auth-01 sshd[11039]: Failed password for invalid user xerox from 103.253.41.98 port 51240 ssh2
+Oct 27 08:21:11 gcp-prod-auth-01 sshd[11041]: Failed password for invalid user lexmark from 103.253.41.98 port 51242 ssh2
+Oct 27 08:21:12 gcp-prod-auth-01 sshd[11043]: Failed password for invalid user brother from 103.253.41.98 port 51244 ssh2
+Oct 27 08:21:13 gcp-prod-auth-01 sshd[11045]: Failed password for invalid user kyocera from 103.253.41.98 port 51246 ssh2
+Oct 27 08:21:14 gcp-prod-auth-01 sshd[11047]: Failed password for invalid user konica from 103.253.41.98 port 51248 ssh2
+Oct 27 08:21:15 gcp-prod-auth-01 sshd[11049]: Failed password for invalid user minolta from 103.253.41.98 port 51250 ssh2
+Oct 27 08:21:16 gcp-prod-auth-01 sshd[11051]: Failed password for invalid user sharp2 from 103.253.41.98 port 51252 ssh2
+Oct 27 08:21:17 gcp-prod-auth-01 sshd[11053]: Failed password for invalid user oki from 103.253.41.98 port 51254 ssh2
+Oct 27 08:21:18 gcp-prod-auth-01 sshd[11055]: Failed password for invalid user ricoh2 from 103.253.41.98 port 51256 ssh2
+Oct 27 08:21:19 gcp-prod-auth-01 sshd[11057]: Failed password for invalid user zebra from 103.253.41.98 port 51258 ssh2
+Oct 27 08:21:20 gcp-prod-auth-01 sshd[11059]: Failed password for invalid user honeywell from 103.253.41.98 port 51260 ssh2
+Oct 27 08:25:30 gcp-prod-auth-01 sshd[11100]: Accepted publickey for site_reliability from 142.250.190.46 port 60124 ssh2: RSA SHA256:ghi789jkl012
+Oct 27 08:25:30 gcp-prod-auth-01 sshd[11100]: pam_unix(sshd:session): session opened for user site_reliability by (uid=0)
+Oct 27 08:30:00 gcp-prod-auth-01 sshd[11200]: Failed password for root from 45.142.212.61 port 41002 ssh2
+Oct 27 08:30:01 gcp-prod-auth-01 sshd[11202]: Failed password for root from 45.142.212.61 port 41004 ssh2
+Oct 27 08:30:02 gcp-prod-auth-01 sshd[11204]: Failed password for root from 45.142.212.61 port 41006 ssh2
+Oct 27 08:30:03 gcp-prod-auth-01 sshd[11206]: Failed password for root from 45.142.212.61 port 41008 ssh2
+Oct 27 08:30:04 gcp-prod-auth-01 sshd[11208]: Failed password for root from 45.142.212.61 port 41010 ssh2
+Oct 27 08:30:05 gcp-prod-auth-01 sshd[11210]: Failed password for root from 45.142.212.61 port 41012 ssh2
+Oct 27 08:30:06 gcp-prod-auth-01 sshd[11212]: Failed password for root from 45.142.212.61 port 41014 ssh2
+Oct 27 08:30:07 gcp-prod-auth-01 sshd[11214]: Failed password for root from 45.142.212.61 port 41016 ssh2
+Oct 27 08:30:08 gcp-prod-auth-01 sshd[11216]: Failed password for root from 45.142.212.61 port 41018 ssh2
+Oct 27 08:30:09 gcp-prod-auth-01 sshd[11218]: Failed password for root from 45.142.212.61 port 41020 ssh2
+Oct 27 08:30:10 gcp-prod-auth-01 sshd[11220]: Failed password for root from 45.142.212.61 port 41022 ssh2
+Oct 27 08:30:11 gcp-prod-auth-01 sshd[11222]: Failed password for root from 45.142.212.61 port 41024 ssh2
+Oct 27 08:30:12 gcp-prod-auth-01 sshd[11224]: Failed password for root from 45.142.212.61 port 41026 ssh2
+Oct 27 08:30:13 gcp-prod-auth-01 sshd[11226]: Failed password for root from 45.142.212.61 port 41028 ssh2
+Oct 27 08:30:14 gcp-prod-auth-01 sshd[11228]: Failed password for root from 45.142.212.61 port 41030 ssh2
+Oct 27 08:30:15 gcp-prod-auth-01 sshd[11230]: Failed password for root from 45.142.212.61 port 41032 ssh2
+Oct 27 08:30:16 gcp-prod-auth-01 sshd[11232]: Failed password for root from 45.142.212.61 port 41034 ssh2
+Oct 27 08:30:17 gcp-prod-auth-01 sshd[11234]: Failed password for root from 45.142.212.61 port 41036 ssh2
+Oct 27 08:30:18 gcp-prod-auth-01 sshd[11236]: Failed password for root from 45.142.212.61 port 41038 ssh2
+Oct 27 08:30:19 gcp-prod-auth-01 sshd[11238]: Failed password for root from 45.142.212.61 port 41040 ssh2
+Oct 27 08:30:20 gcp-prod-auth-01 sshd[11240]: Failed password for root from 45.142.212.61 port 41042 ssh2
+Oct 27 08:30:21 gcp-prod-auth-01 sshd[11242]: Failed password for root from 45.142.212.61 port 41044 ssh2
+Oct 27 08:30:22 gcp-prod-auth-01 sshd[11244]: Failed password for root from 45.142.212.61 port 41046 ssh2
+Oct 27 08:30:23 gcp-prod-auth-01 sshd[11246]: Failed password for root from 45.142.212.61 port 41048 ssh2
+Oct 27 08:30:24 gcp-prod-auth-01 sshd[11248]: Failed password for root from 45.142.212.61 port 41050 ssh2
+Oct 27 08:30:25 gcp-prod-auth-01 sshd[11250]: Failed password for root from 45.142.212.61 port 41052 ssh2
+Oct 27 08:30:26 gcp-prod-auth-01 sshd[11252]: Failed password for root from 45.142.212.61 port 41054 ssh2
+Oct 27 08:30:27 gcp-prod-auth-01 sshd[11254]: Failed password for root from 45.142.212.61 port 41056 ssh2
+Oct 27 08:30:28 gcp-prod-auth-01 sshd[11256]: Failed password for root from 45.142.212.61 port 41058 ssh2
+Oct 27 08:30:29 gcp-prod-auth-01 sshd[11258]: Failed password for root from 45.142.212.61 port 41060 ssh2
+Oct 27 08:30:30 gcp-prod-auth-01 sshd[11260]: Failed password for root from 45.142.212.61 port 41062 ssh2
+Oct 27 08:30:31 gcp-prod-auth-01 sshd[11262]: Failed password for root from 45.142.212.61 port 41064 ssh2
+Oct 27 08:30:32 gcp-prod-auth-01 sshd[11264]: Failed password for root from 45.142.212.61 port 41066 ssh2
+Oct 27 08:30:33 gcp-prod-auth-01 sshd[11266]: Failed password for root from 45.142.212.61 port 41068 ssh2
+Oct 27 08:30:34 gcp-prod-auth-01 sshd[11268]: Failed password for root from 45.142.212.61 port 41070 ssh2
+Oct 27 08:30:35 gcp-prod-auth-01 sshd[11270]: Failed password for root from 45.142.212.61 port 41072 ssh2
+Oct 27 08:30:36 gcp-prod-auth-01 sshd[11272]: Failed password for root from 45.142.212.61 port 41074 ssh2
+Oct 27 08:30:37 gcp-prod-auth-01 sshd[11274]: Failed password for root from 45.142.212.61 port 41076 ssh2
+Oct 27 08:30:38 gcp-prod-auth-01 sshd[11276]: Failed password for root from 45.142.212.61 port 41078 ssh2
+Oct 27 08:30:39 gcp-prod-auth-01 sshd[11278]: Failed password for root from 45.142.212.61 port 41080 ssh2
+Oct 27 08:30:40 gcp-prod-auth-01 sshd[11280]: Failed password for root from 45.142.212.61 port 41082 ssh2
+Oct 27 08:30:41 gcp-prod-auth-01 sshd[11282]: Failed password for root from 45.142.212.61 port 41084 ssh2
+Oct 27 08:30:42 gcp-prod-auth-01 sshd[11284]: Failed password for root from 45.142.212.61 port 41086 ssh2
+Oct 27 08:30:43 gcp-prod-auth-01 sshd[11286]: Failed password for root from 45.142.212.61 port 41088 ssh2
+Oct 27 08:30:44 gcp-prod-auth-01 sshd[11288]: Failed password for root from 45.142.212.61 port 41090 ssh2
+Oct 27 08:30:45 gcp-prod-auth-01 sshd[11290]: Failed password for root from 45.142.212.61 port 41092 ssh2
+Oct 27 08:30:46 gcp-prod-auth-01 sshd[11292]: Failed password for root from 45.142.212.61 port 41094 ssh2
+Oct 27 08:30:47 gcp-prod-auth-01 sshd[11294]: Failed password for root from 45.142.212.61 port 41096 ssh2
+Oct 27 08:30:48 gcp-prod-auth-01 sshd[11296]: Failed password for root from 45.142.212.61 port 41098 ssh2
+Oct 27 08:30:49 gcp-prod-auth-01 sshd[11298]: Failed password for root from 45.142.212.61 port 41100 ssh2
+Oct 27 08:30:50 gcp-prod-auth-01 sshd[11300]: Failed password for root from 45.142.212.61 port 41102 ssh2
+Oct 27 08:30:51 gcp-prod-auth-01 sshd[11302]: Failed password for root from 45.142.212.61 port 41104 ssh2
+Oct 27 08:30:52 gcp-prod-auth-01 sshd[11304]: Failed password for root from 45.142.212.61 port 41106 ssh2
+Oct 27 08:30:53 gcp-prod-auth-01 sshd[11306]: Failed password for root from 45.142.212.61 port 41108 ssh2
+Oct 27 08:30:54 gcp-prod-auth-01 sshd[11308]: Failed password for root from 45.142.212.61 port 41110 ssh2
+Oct 27 08:30:55 gcp-prod-auth-01 sshd[11310]: Failed password for root from 45.142.212.61 port 41112 ssh2
+Oct 27 08:30:56 gcp-prod-auth-01 sshd[11312]: Failed password for root from 45.142.212.61 port 41114 ssh2
+Oct 27 08:30:57 gcp-prod-auth-01 sshd[11314]: Failed password for root from 45.142.212.61 port 41116 ssh2
+Oct 27 08:30:58 gcp-prod-auth-01 sshd[11316]: Failed password for root from 45.142.212.61 port 41118 ssh2
+Oct 27 08:30:59 gcp-prod-auth-01 sshd[11318]: Failed password for root from 45.142.212.61 port 41120 ssh2
+Oct 27 08:31:00 gcp-prod-auth-01 sshd[11320]: Failed password for root from 45.142.212.61 port 41122 ssh2
+Oct 27 08:31:01 gcp-prod-auth-01 sshd[11322]: Failed password for root from 45.142.212.61 port 41124 ssh2
+Oct 27 08:31:02 gcp-prod-auth-01 sshd[11324]: Failed password for root from 45.142.212.61 port 41126 ssh2
+Oct 27 08:31:03 gcp-prod-auth-01 sshd[11326]: Failed password for root from 45.142.212.61 port 41128 ssh2
+Oct 27 08:31:04 gcp-prod-auth-01 sshd[11328]: Failed password for root from 45.142.212.61 port 41130 ssh2
+Oct 27 08:31:05 gcp-prod-auth-01 sshd[11330]: Failed password for root from 45.142.212.61 port 41132 ssh2
+Oct 27 08:31:06 gcp-prod-auth-01 sshd[11332]: Failed password for root from 45.142.212.61 port 41134 ssh2
+Oct 27 08:31:07 gcp-prod-auth-01 sshd[11334]: Failed password for root from 45.142.212.61 port 41136 ssh2
+Oct 27 08:31:08 gcp-prod-auth-01 sshd[11336]: Failed password for root from 45.142.212.61 port 41138 ssh2
+Oct 27 08:31:09 gcp-prod-auth-01 sshd[11338]: Failed password for root from 45.142.212.61 port 41140 ssh2
+Oct 27 08:31:10 gcp-prod-auth-01 sshd[11340]: Failed password for root from 45.142.212.61 port 41142 ssh2
+Oct 27 08:31:11 gcp-prod-auth-01 sshd[11342]: Failed password for root from 45.142.212.61 port 41144 ssh2
+Oct 27 08:31:12 gcp-prod-auth-01 sshd[11344]: Failed password for root from 45.142.212.61 port 41146 ssh2
+Oct 27 08:31:13 gcp-prod-auth-01 sshd[11346]: Failed password for root from 45.142.212.61 port 41148 ssh2
+Oct 27 08:31:14 gcp-prod-auth-01 sshd[11348]: Failed password for root from 45.142.212.61 port 41150 ssh2
+Oct 27 08:31:15 gcp-prod-auth-01 sshd[11350]: Failed password for root from 45.142.212.61 port 41152 ssh2
+Oct 27 08:31:16 gcp-prod-auth-01 sshd[11352]: Failed password for root from 45.142.212.61 port 41154 ssh2
+Oct 27 08:31:17 gcp-prod-auth-01 sshd[11354]: Failed password for root from 45.142.212.61 port 41156 ssh2
+Oct 27 08:31:18 gcp-prod-auth-01 sshd[11356]: Failed password for root from 45.142.212.61 port 41158 ssh2
+Oct 27 08:31:19 gcp-prod-auth-01 sshd[11358]: Failed password for root from 45.142.212.61 port 41160 ssh2
+Oct 27 08:31:20 gcp-prod-auth-01 sshd[11360]: Failed password for root from 45.142.212.61 port 41162 ssh2
+Oct 27 08:31:21 gcp-prod-auth-01 sshd[11362]: Failed password for root from 45.142.212.61 port 41164 ssh2
+Oct 27 08:31:22 gcp-prod-auth-01 sshd[11364]: Failed password for root from 45.142.212.61 port 41166 ssh2
+Oct 27 08:31:23 gcp-prod-auth-01 sshd[11366]: Failed password for root from 45.142.212.61 port 41168 ssh2
+Oct 27 08:31:24 gcp-prod-auth-01 sshd[11368]: Failed password for root from 45.142.212.61 port 41170 ssh2
+Oct 27 08:31:25 gcp-prod-auth-01 sshd[11370]: Failed password for root from 45.142.212.61 port 41172 ssh2
+Oct 27 08:31:26 gcp-prod-auth-01 sshd[11372]: Failed password for root from 45.142.212.61 port 41174 ssh2
+Oct 27 08:31:27 gcp-prod-auth-01 sshd[11374]: Failed password for root from 45.142.212.61 port 41176 ssh2
+Oct 27 08:31:28 gcp-prod-auth-01 sshd[11376]: Failed password for root from 45.142.212.61 port 41178 ssh2
+Oct 27 08:31:29 gcp-prod-auth-01 sshd[11378]: Failed password for root from 45.142.212.61 port 41180 ssh2
+Oct 27 08:31:30 gcp-prod-auth-01 sshd[11380]: Failed password for root from 45.142.212.61 port 41182 ssh2
+Oct 27 08:31:31 gcp-prod-auth-01 sshd[11382]: Failed password for root from 45.142.212.61 port 41184 ssh2
+Oct 27 08:31:32 gcp-prod-auth-01 sshd[11384]: Failed password for root from 45.142.212.61 port 41186 ssh2
+Oct 27 08:31:33 gcp-prod-auth-01 sshd[11386]: Failed password for root from 45.142.212.61 port 41188 ssh2
+Oct 27 08:31:34 gcp-prod-auth-01 sshd[11388]: Failed password for root from 45.142.212.61 port 41190 ssh2
+Oct 27 08:31:35 gcp-prod-auth-01 sshd[11390]: Failed password for root from 45.142.212.61 port 41192 ssh2
+Oct 27 08:31:36 gcp-prod-auth-01 sshd[11392]: Failed password for root from 45.142.212.61 port 41194 ssh2
+Oct 27 08:31:37 gcp-prod-auth-01 sshd[11394]: Failed password for root from 45.142.212.61 port 41196 ssh2
+Oct 27 08:31:38 gcp-prod-auth-01 sshd[11396]: Failed password for root from 45.142.212.61 port 41198 ssh2
+Oct 27 08:31:39 gcp-prod-auth-01 sshd[11398]: Failed password for root from 45.142.212.61 port 41200 ssh2
+Oct 27 08:40:00 gcp-prod-auth-01 sshd[11400]: Failed password for invalid user admin1 from 198.51.100.23 port 58900 ssh2
+Oct 27 08:40:01 gcp-prod-auth-01 sshd[11402]: Failed password for invalid user admin2 from 198.51.100.23 port 58902 ssh2
+Oct 27 08:40:02 gcp-prod-auth-01 sshd[11404]: Failed password for invalid user admin3 from 198.51.100.23 port 58904 ssh2
+Oct 27 08:40:03 gcp-prod-auth-01 sshd[11406]: Failed password for invalid user user1 from 198.51.100.23 port 58906 ssh2
+Oct 27 08:40:04 gcp-prod-auth-01 sshd[11408]: Failed password for invalid user user2 from 198.51.100.23 port 58908 ssh2
+Oct 27 08:40:05 gcp-prod-auth-01 sshd[11410]: Failed password for invalid user user3 from 198.51.100.23 port 58910 ssh2
+Oct 27 08:40:06 gcp-prod-auth-01 sshd[11412]: Failed password for invalid user test1 from 198.51.100.23 port 58912 ssh2
+Oct 27 08:40:07 gcp-prod-auth-01 sshd[11414]: Failed password for invalid user test2 from 198.51.100.23 port 58914 ssh2
+Oct 27 08:40:08 gcp-prod-auth-01 sshd[11416]: Failed password for invalid user test3 from 198.51.100.23 port 58916 ssh2
+Oct 27 08:40:09 gcp-prod-auth-01 sshd[11418]: Failed password for invalid user guest1 from 198.51.100.23 port 58918 ssh2
+Oct 27 08:40:10 gcp-prod-auth-01 sshd[11420]: Failed password for invalid user guest2 from 198.51.100.23 port 58920 ssh2
+Oct 27 08:40:11 gcp-prod-auth-01 sshd[11422]: Failed password for invalid user temp1 from 198.51.100.23 port 58922 ssh2
+Oct 27 08:40:12 gcp-prod-auth-01 sshd[11424]: Failed password for invalid user temp2 from 198.51.100.23 port 58924 ssh2
+Oct 27 08:40:13 gcp-prod-auth-01 sshd[11426]: Failed password for invalid user demo1 from 198.51.100.23 port 58926 ssh2
+Oct 27 08:40:14 gcp-prod-auth-01 sshd[11428]: Failed password for invalid user demo2 from 198.51.100.23 port 58928 ssh2
+Oct 27 08:40:15 gcp-prod-auth-01 sshd[11430]: Failed password for invalid user dev1 from 198.51.100.23 port 58930 ssh2
+Oct 27 08:40:16 gcp-prod-auth-01 sshd[11432]: Failed password for invalid user dev2 from 198.51.100.23 port 58932 ssh2
+Oct 27 08:40:17 gcp-prod-auth-01 sshd[11434]: Failed password for invalid user stage1 from 198.51.100.23 port 58934 ssh2
+Oct 27 08:40:18 gcp-prod-auth-01 sshd[11436]: Failed password for invalid user stage2 from 198.51.100.23 port 58936 ssh2
+Oct 27 08:40:19 gcp-prod-auth-01 sshd[11438]: Failed password for invalid user prod1 from 198.51.100.23 port 58938 ssh2
+Oct 27 08:40:20 gcp-prod-auth-01 sshd[11440]: Failed password for invalid user prod2 from 198.51.100.23 port 58940 ssh2
+Oct 27 08:40:21 gcp-prod-auth-01 sshd[11442]: Failed password for invalid user db1 from 198.51.100.23 port 58942 ssh2
+Oct 27 08:40:22 gcp-prod-auth-01 sshd[11444]: Failed password for invalid user db2 from 198.51.100.23 port 58944 ssh2
+Oct 27 08:40:23 gcp-prod-auth-01 sshd[11446]: Failed password for invalid user app1 from 198.51.100.23 port 58946 ssh2
+Oct 27 08:40:24 gcp-prod-auth-01 sshd[11448]: Failed password for invalid user app2 from 198.51.100.23 port 58948 ssh2
+Oct 27 08:40:25 gcp-prod-auth-01 sshd[11450]: Failed password for invalid user web1 from 198.51.100.23 port 58950 ssh2
+Oct 27 08:40:26 gcp-prod-auth-01 sshd[11452]: Failed password for invalid user web2 from 198.51.100.23 port 58952 ssh2
+Oct 27 08:40:27 gcp-prod-auth-01 sshd[11454]: Failed password for invalid user sys1 from 198.51.100.23 port 58954 ssh2
+Oct 27 08:40:28 gcp-prod-auth-01 sshd[11456]: Failed password for invalid user sys2 from 198.51.100.23 port 58956 ssh2
+Oct 27 08:40:29 gcp-prod-auth-01 sshd[11458]: Failed password for invalid user service1 from 198.51.100.23 port 58958 ssh2
+Oct 27 08:40:30 gcp-prod-auth-01 sshd[11460]: Failed password for invalid user service2 from 198.51.100.23 port 58960 ssh2
+Oct 27 08:40:31 gcp-prod-auth-01 sshd[11462]: Failed password for invalid user backup1 from 198.51.100.23 port 58962 ssh2
+Oct 27 08:40:32 gcp-prod-auth-01 sshd[11464]: Failed password for invalid user backup2 from 198.51.100.23 port 58964 ssh2
+Oct 27 08:40:33 gcp-prod-auth-01 sshd[11466]: Failed password for invalid user api1 from 198.51.100.23 port 58966 ssh2
+Oct 27 08:40:34 gcp-prod-auth-01 sshd[11468]: Failed password for invalid user api2 from 198.51.100.23 port 58968 ssh2
+Oct 27 08:40:35 gcp-prod-auth-01 sshd[11470]: Failed password for invalid user client1 from 198.51.100.23 port 58970 ssh2
+Oct 27 08:40:36 gcp-prod-auth-01 sshd[11472]: Failed password for invalid user client2 from 198.51.100.23 port 58972 ssh2
+Oct 27 08:40:37 gcp-prod-auth-01 sshd[11474]: Failed password for invalid user node1 from 198.51.100.23 port 58974 ssh2
+Oct 27 08:40:38 gcp-prod-auth-01 sshd[11476]: Failed password for invalid user node2 from 198.51.100.23 port 58976 ssh2
+Oct 27 08:40:39 gcp-prod-auth-01 sshd[11478]: Failed password for invalid user host1 from 198.51.100.23 port 58978 ssh2
+Oct 27 08:40:40 gcp-prod-auth-01 sshd[11480]: Failed password for invalid user host2 from 198.51.100.23 port 58980 ssh2
+Oct 27 08:40:41 gcp-prod-auth-01 sshd[11482]: Failed password for invalid user server1 from 198.51.100.23 port 58982 ssh2
+Oct 27 08:40:42 gcp-prod-auth-01 sshd[11484]: Failed password for invalid user server2 from 198.51.100.23 port 58984 ssh2
+Oct 27 08:40:43 gcp-prod-auth-01 sshd[11486]: Failed password for invalid user bot1 from 198.51.100.23 port 58986 ssh2
+Oct 27 08:40:44 gcp-prod-auth-01 sshd[11488]: Failed password for invalid user bot2 from 198.51.100.23 port 58988 ssh2
+Oct 27 08:40:45 gcp-prod-auth-01 sshd[11490]: Failed password for invalid user agent1 from 198.51.100.23 port 58990 ssh2
+Oct 27 08:40:46 gcp-prod-auth-01 sshd[11492]: Failed password for invalid user agent2 from 198.51.100.23 port 58992 ssh2
+Oct 27 08:40:47 gcp-prod-auth-01 sshd[11494]: Failed password for invalid user proxy1 from 198.51.100.23 port 58994 ssh2
+Oct 27 08:40:48 gcp-prod-auth-01 sshd[11496]: Failed password for invalid user proxy2 from 198.51.100.23 port 58996 ssh2
+Oct 27 08:40:49 gcp-prod-auth-01 sshd[11498]: Failed password for invalid user router1 from 198.51.100.23 port 58998 ssh2
+Oct 27 08:40:50 gcp-prod-auth-01 sshd[11500]: Failed password for invalid user router2 from 198.51.100.23 port 59000 ssh2
+Oct 27 08:40:51 gcp-prod-auth-01 sshd[11502]: Failed password for invalid user switch1 from 198.51.100.23 port 59002 ssh2
+Oct 27 08:40:52 gcp-prod-auth-01 sshd[11504]: Failed password for invalid user switch2 from 198.51.100.23 port 59004 ssh2
+Oct 27 08:40:53 gcp-prod-auth-01 sshd[11506]: Failed password for invalid user mail1 from 198.51.100.23 port 59006 ssh2
+Oct 27 08:40:54 gcp-prod-auth-01 sshd[11508]: Failed password for invalid user mail2 from 198.51.100.23 port 59008 ssh2
+Oct 27 08:40:55 gcp-prod-auth-01 sshd[11510]: Failed password for invalid user vpn1 from 198.51.100.23 port 59010 ssh2
+Oct 27 08:40:56 gcp-prod-auth-01 sshd[11512]: Failed password for invalid user vpn2 from 198.51.100.23 port 59012 ssh2
+Oct 27 08:40:57 gcp-prod-auth-01 sshd[11514]: Failed password for invalid user dns1 from 198.51.100.23 port 59014 ssh2
+Oct 27 08:40:58 gcp-prod-auth-01 sshd[11516]: Failed password for invalid user dns2 from 198.51.100.23 port 59016 ssh2
+Oct 27 08:40:59 gcp-prod-auth-01 sshd[11518]: Failed password for invalid user cloud1 from 198.51.100.23 port 59018 ssh2
+Oct 27 08:41:00 gcp-prod-auth-01 sshd[11520]: Failed password for invalid user cloud2 from 198.51.100.23 port 59020 ssh2
+Oct 27 08:41:01 gcp-prod-auth-01 sshd[11522]: Failed password for invalid user core1 from 198.51.100.23 port 59022 ssh2
+Oct 27 08:41:02 gcp-prod-auth-01 sshd[11524]: Failed password for invalid user core2 from 198.51.100.23 port 59024 ssh2
+Oct 27 08:41:03 gcp-prod-auth-01 sshd[11526]: Failed password for invalid user main1 from 198.51.100.23 port 59026 ssh2
+Oct 27 08:41:04 gcp-prod-auth-01 sshd[11528]: Failed password for invalid user main2 from 198.51.100.23 port 59028 ssh2
+Oct 27 08:41:05 gcp-prod-auth-01 sshd[11530]: Failed password for invalid user master1 from 198.51.100.23 port 59030 ssh2
+Oct 27 08:41:06 gcp-prod-auth-01 sshd[11532]: Failed password for invalid user master2 from 198.51.100.23 port 59032 ssh2
+Oct 27 08:41:07 gcp-prod-auth-01 sshd[11534]: Failed password for invalid user slave1 from 198.51.100.23 port 59034 ssh2
+Oct 27 08:41:08 gcp-prod-auth-01 sshd[11536]: Failed password for invalid user slave2 from 198.51.100.23 port 59036 ssh2
+Oct 27 08:41:09 gcp-prod-auth-01 sshd[11538]: Failed password for invalid user manager1 from 198.51.100.23 port 59038 ssh2
+Oct 27 08:41:10 gcp-prod-auth-01 sshd[11540]: Failed password for invalid user manager2 from 198.51.100.23 port 59040 ssh2
+Oct 27 08:41:11 gcp-prod-auth-01 sshd[11542]: Failed password for invalid user cluster1 from 198.51.100.23 port 59042 ssh2
+Oct 27 08:41:12 gcp-prod-auth-01 sshd[11544]: Failed password for invalid user cluster2 from 198.51.100.23 port 59044 ssh2
+Oct 27 08:41:13 gcp-prod-auth-01 sshd[11546]: Failed password for invalid user internal1 from 198.51.100.23 port 59046 ssh2
+Oct 27 08:41:14 gcp-prod-auth-01 sshd[11548]: Failed password for invalid user internal2 from 198.51.100.23 port 59048 ssh2
+Oct 27 08:41:15 gcp-prod-auth-01 sshd[11550]: Failed password for invalid user secure1 from 198.51.100.23 port 59050 ssh2
+Oct 27 08:41:16 gcp-prod-auth-01 sshd[11552]: Failed password for invalid user secure2 from 198.51.100.23 port 59052 ssh2
+Oct 27 08:41:17 gcp-prod-auth-01 sshd[11554]: Failed password for invalid user access1 from 198.51.100.23 port 59054 ssh2
+Oct 27 08:41:18 gcp-prod-auth-01 sshd[11556]: Failed password for invalid user access2 from 198.51.100.23 port 59056 ssh2
+Oct 27 08:41:19 gcp-prod-auth-01 sshd[11558]: Failed password for invalid user shell1 from 198.51.100.23 port 59058 ssh2
+Oct 27 08:41:20 gcp-prod-auth-01 sshd[11560]: Failed password for invalid user shell2 from 198.51.100.23 port 59060 ssh2
+Oct 27 08:41:21 gcp-prod-auth-01 sshd[11562]: Failed password for invalid user box1 from 198.51.100.23 port 59062 ssh2
+Oct 27 08:41:22 gcp-prod-auth-01 sshd[11564]: Failed password for invalid user box2 from 198.51.100.23 port 59064 ssh2
+Oct 27 08:41:23 gcp-prod-auth-01 sshd[11566]: Failed password for invalid user console1 from 198.51.100.23 port 59066 ssh2
+Oct 27 08:41:24 gcp-prod-auth-01 sshd[11568]: Failed password for invalid user console2 from 198.51.100.23 port 59068 ssh2
+Oct 27 08:41:25 gcp-prod-auth-01 sshd[11570]: Failed password for invalid user monitor1 from 198.51.100.23 port 59070 ssh2
+Oct 27 08:41:26 gcp-prod-auth-01 sshd[11572]: Failed password for invalid user monitor2 from 198.51.100.23 port 59072 ssh2
+Oct 27 08:41:27 gcp-prod-auth-01 sshd[11574]: Failed password for invalid user audit1 from 198.51.100.23 port 59074 ssh2
+Oct 27 08:41:28 gcp-prod-auth-01 sshd[11576]: Failed password for invalid user audit2 from 198.51.100.23 port 59076 ssh2
+Oct 27 08:41:29 gcp-prod-auth-01 sshd[11578]: Failed password for invalid user guard1 from 198.51.100.23 port 59078 ssh2
+Oct 27 08:41:30 gcp-prod-auth-01 sshd[11580]: Failed password for invalid user guard2 from 198.51.100.23 port 59080 ssh2
+Oct 27 08:41:31 gcp-prod-auth-01 sshd[11582]: Failed password for invalid user shield1 from 198.51.100.23 port 59082 ssh2
+Oct 27 08:41:32 gcp-prod-auth-01 sshd[11584]: Failed password for invalid user shield2 from 198.51.100.23 port 59084 ssh2
+Oct 27 08:41:33 gcp-prod-auth-01 sshd[11586]: Failed password for invalid user unit1 from 198.51.100.23 port 59086 ssh2
+Oct 27 08:41:34 gcp-prod-auth-01 sshd[11588]: Failed password for invalid user unit2 from 198.51.100.23 port 59088 ssh2
+Oct 27 08:41:35 gcp-prod-auth-01 sshd[11590]: Failed password for invalid user info1 from 198.51.100.23 port 59090 ssh2
+Oct 27 08:41:36 gcp-prod-auth-01 sshd[11592]: Failed password for invalid user info2 from 198.51.100.23 port 59092 ssh2
+Oct 27 08:41:37 gcp-prod-auth-01 sshd[11594]: Failed password for invalid user sales1 from 198.51.100.23 port 59094 ssh2
+Oct 27 08:41:38 gcp-prod-auth-01 sshd[11596]: Failed password for invalid user sales2 from 198.51.100.23 port 59096 ssh2
+Oct 27 08:41:39 gcp-prod-auth-01 sshd[11598]: Failed password for invalid user support1 from 198.51.100.23 port 59098 ssh2
+Oct 27 08:41:40 gcp-prod-auth-01 sshd[11600]: Failed password for invalid user support2 from 198.51.100.23 port 59100 ssh2
+Oct 27 08:41:41 gcp-prod-auth-01 sshd[11602]: Failed password for invalid user deploy1 from 198.51.100.23 port 59102 ssh2
+Oct 27 08:41:42 gcp-prod-auth-01 sshd[11604]: Failed password for invalid user deploy2 from 198.51.100.23 port 59104 ssh2
+Oct 27 08:41:43 gcp-prod-auth-01 sshd[11606]: Failed password for invalid user sysadmin1 from 198.51.100.23 port 59106 ssh2
+Oct 27 08:41:44 gcp-prod-auth-01 sshd[11608]: Failed password for invalid user sysadmin2 from 198.51.100.23 port 59108 ssh2
+Oct 27 08:41:45 gcp-prod-auth-01 sshd[11610]: Failed password for invalid user oracle1 from 198.51.100.23 port 59110 ssh2
+Oct 27 08:41:46 gcp-prod-auth-01 sshd[11612]: Failed password for invalid user oracle2 from 198.51.100.23 port 59112 ssh2
+Oct 27 08:41:47 gcp-prod-auth-01 sshd[11614]: Failed password for invalid user postgres1 from 198.51.100.23 port 59114 ssh2
+Oct 27 08:41:48 gcp-prod-auth-01 sshd[11616]: Failed password for invalid user postgres2 from 198.51.100.23 port 59116 ssh2
+Oct 27 08:41:49 gcp-prod-auth-01 sshd[11618]: Failed password for invalid user mysql1 from 198.51.100.23 port 59118 ssh2
+Oct 27 08:41:50 gcp-prod-auth-01 sshd[11620]: Failed password for invalid user mysql2 from 198.51.100.23 port 59120 ssh2
+Oct 27 08:41:51 gcp-prod-auth-01 sshd[11622]: Failed password for invalid user docker1 from 198.51.100.23 port 59122 ssh2
+Oct 27 08:41:52 gcp-prod-auth-01 sshd[11624]: Failed password for invalid user docker2 from 198.51.100.23 port 59124 ssh2
+Oct 27 08:41:53 gcp-prod-auth-01 sshd[11626]: Failed password for invalid user jenkins1 from 198.51.100.23 port 59126 ssh2
+Oct 27 08:41:54 gcp-prod-auth-01 sshd[11628]: Failed password for invalid user jenkins2 from 198.51.100.23 port 59128 ssh2
+Oct 27 08:41:55 gcp-prod-auth-01 sshd[11630]: Failed password for invalid user ansible1 from 198.51.100.23 port 59130 ssh2
+Oct 27 08:41:56 gcp-prod-auth-01 sshd[11632]: Failed password for invalid user ansible2 from 198.51.100.23 port 59132 ssh2
+Oct 27 08:41:57 gcp-prod-auth-01 sshd[11634]: Failed password for invalid user zabbix1 from 198.51.100.23 port 59134 ssh2
+Oct 27 08:41:58 gcp-prod-auth-01 sshd[11636]: Failed password for invalid user zabbix2 from 198.51.100.23 port 59136 ssh2
+Oct 27 08:41:59 gcp-prod-auth-01 sshd[11638]: Failed password for invalid user nagios1 from 198.51.100.23 port 59138 ssh2
+Oct 27 08:42:00 gcp-prod-auth-01 sshd[11640]: Failed password for invalid user nagios2 from 198.51.100.23 port 59140 ssh2
+Oct 27 08:45:00 gcp-prod-auth-01 sshd[11700]: Received disconnect from 185.220.101.5 port 34306:11: Bye Bye [preauth]
+Oct 27 08:45:01 gcp-prod-auth-01 sshd[11701]: Connection closed by 103.253.41.98 port 51260 [preauth]
+Oct 27 08:45:02 gcp-prod-auth-01 sshd[11702]: Connection closed by 198.51.100.23 port 59140 [preauth]
+Oct 27 08:50:11 gcp-prod-auth-01 sshd[11750]: Accepted publickey for sec_auditor from 8.8.8.8 port 54321 ssh2: RSA SHA256:mno345pqr678
+Oct 27 08:50:11 gcp-prod-auth-01 sshd[11750]: pam_unix(sshd:session): session opened for user sec_auditor by (uid=0)
+Oct 27 08:52:00 gcp-prod-auth-01 sshd[11750]: pam_unix(sshd:session): session closed for user sec_auditor
+Oct 27 08:59:59 gcp-prod-auth-01 systemd-logind[911]: Session 102 logged out. Waiting for processes to exit.
+Oct 27 09:00:00 gcp-prod-auth-01 systemd-logind[911]: Removed session 102.
